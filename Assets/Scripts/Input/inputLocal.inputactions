@@ -1,0 +1,74 @@
+{
+    "name": "inputLocal",
+    "maps": [
+        {
+            "name": "player",
+            "id": "47881e07-aa79-4cfc-9f29-389377da9f73",
+            "actions": [
+                {
+                    "name": "bite",
+                    "type": "Button",
+                    "id": "92e85bde-a7e2-4888-9efe-e1caa2baccf9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "speedup",
+                    "type": "Button",
+                    "id": "1fb6b5b3-aecd-4a60-9bf2-509458e1d58d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "normalspeed",
+                    "type": "Button",
+                    "id": "650413e3-8cfa-4b87-a49e-a843009010bc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2462300f-0701-4e82-8dd8-817762a9c937",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "bite",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0bbb271d-9165-4995-9690-87c047a32504",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "Press(pressPoint=0.1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "speedup",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d6cdacc8-2ea8-4d3a-bf26-1a74cd2b005d",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "Press(pressPoint=1.401298E-45,behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "normalspeed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

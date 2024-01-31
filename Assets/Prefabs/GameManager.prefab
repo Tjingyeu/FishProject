@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5375411018138690220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 265819763831455683}
+  - component: {fileID: 3869890920719957137}
+  - component: {fileID: 3927705277625334675}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &265819763831455683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5375411018138690220}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 453, y: 217, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3869890920719957137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5375411018138690220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c0cb990e9835e449143d2f406e426a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WakaConnection: {fileID: 0}
+  NetworkLocalPlayerPrefab: {fileID: 7321885820371199494, guid: 5c7cd97e81fc7f34188a5ec3ac09cb1b, type: 3}
+  NetworkRemotePlayerPrefab: {fileID: 4151170750476157845, guid: 3bb21e1db5b995c418899dfb554dda69, type: 3}
+  TotalTime: 60
+  endGameMenu: {fileID: 0}
+  startGameMenu: {fileID: 0}
+  InputButtons: {fileID: 0}
+  timerstart: 0
+--- !u!114 &3927705277625334675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5375411018138690220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3b87b929d4bf44b8f93ca3e6cc161a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerModels:
+  - {fileID: 2154414513101297940, guid: e42af5c0ff80b0d4eb393bfe9fa6353a, type: 3}
+  - {fileID: 3491632009079038940, guid: 8be114c04c51aa74780ad651008f829b, type: 3}
+  - {fileID: 3649190772282629161, guid: 5e04f91d80d1c964ebe928f823e386bc, type: 3}
+  - {fileID: 6540402556106004619, guid: ad3de2692981f2940b7726de59329ab2, type: 3}
+  - {fileID: 5564232111547637104, guid: a499185f24ce86a4b83f7172f55a4e22, type: 3}
+  - {fileID: 8950889447570426988, guid: a335a29a7061a3d47b444e2cee46fcb1, type: 3}
+  spawnPoints:
+  - {x: 50, y: 350, z: 0}
+  - {x: -150, y: 300, z: 0}
+  - {x: -50, y: 300, z: 0}
+  - {x: 50, y: 300, z: 0}
+  - {x: 100, y: 300, z: 0}
+  - {x: 150, y: 300, z: 0}
+  - {x: 200, y: 300, z: 0}
+  - {x: 250, y: 300, z: 0}
+  - {x: 300, y: 300, z: 0}
+  - {x: 350, y: 300, z: 0}
+  - {x: 400, y: 300, z: 0}
+  - {x: -200, y: 250, z: 0}
+  - {x: -150, y: 250, z: 0}
+  - {x: 0, y: 250, z: 0}
+  - {x: 150, y: 250, z: 0}
+  - {x: 200, y: 250, z: 0}
+  - {x: 50, y: 250, z: 0}
+  - {x: -50, y: 250, z: 0}
+  - {x: -100, y: 200, z: 0}
+  - {x: 0, y: 200, z: 0}
+  - {x: 400, y: 200, z: 0}
+  - {x: 50, y: 200, z: 0}
+  - {x: -300, y: 200, z: 0}
+  - {x: -150, y: 150, z: 0}
+  - {x: -50, y: 150, z: 0}
+  - {x: -100, y: 100, z: 0}
+  - {x: 100, y: 100, z: 0}
+  - {x: 150, y: 75, z: 0}
+  - {x: 100, y: 50, z: 0}
+  - {x: 150, y: -15, z: 0}
+  - {x: 100, y: -15, z: 0}
+  - {x: 200, y: -15, z: 0}
+  - {x: 300, y: -15, z: 0}
+  - {x: 400, y: -15, z: 0}
+  itemPrefabs:
+  - {fileID: 5623431855591627515, guid: 5fca4a3ec26e8744cb53f72e8159d85b, type: 3}
+  - {fileID: 3530419670987736028, guid: cd4aca7afa6dbd641ba9dc89c851764e, type: 3}
+  - {fileID: 908621247513041878, guid: 2050650493193f743a99b6b1260a7bfc, type: 3}
+  - {fileID: 2841006621073761845, guid: 627a0a7d43940264e87b0190e3c74d5c, type: 3}
+  - {fileID: 933821255148978010, guid: 2d8fa6023bb77eb4197bdb7602991a00, type: 3}
+  - {fileID: 7559195286585149387, guid: 4abadb595f5ae3f4680e5c4633a8bc4f, type: 3}
+  meats:
+  - {fileID: 9110769021193537914, guid: 68c22bfc54c237b41a9a984e6741986a, type: 3}
+  - {fileID: 6762844339524113866, guid: 5106e6daaa788514caff22886d5a1aef, type: 3}
+  - {fileID: 4315498704536316660, guid: 32eb73d407167a5458a278690a49a404, type: 3}

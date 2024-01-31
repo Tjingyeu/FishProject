@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>30d0b93978dafb045896ef6d7b9fa7ed</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/AboutWindow.cs</fileName>
+    <timeStamp>2023-07-09T00:40:10-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>376b5ef58ef76ee44a670bfb40859ff4</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Assister.cs</fileName>
+    <timeStamp>2023-09-19T14:11:16-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7b87f6ef76c23df4bb91b035d9688291</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/FeedbackWindow.cs</fileName>
+    <timeStamp>2023-03-08T20:04:44-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>94e01ccdd6b69f0458d002a8928f656b</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/MainThreadDispatcher.cs</fileName>
+    <timeStamp>2023-03-05T19:41:08-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ec094938826e3114899e9dabd2c60d07</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Monitor.cs</fileName>
+    <timeStamp>2023-09-08T17:13:02-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f799c8b1c78f2614bae02123416b187f</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/NetMQInitializer.cs</fileName>
+    <timeStamp>2023-03-05T19:41:08-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eafafd31753573542a2332946c0c8e65</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/NetMQPublisher.cs</fileName>
+    <timeStamp>2023-07-03T14:34:28-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>33c73c00eb608a6458bbf7de4dfaf3b9</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/ScriptFinder.cs</fileName>
+    <timeStamp>2023-07-27T19:48:14-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3101f8121a1eef9459b66526ffe94971</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/StatusWindow.cs</fileName>
+    <timeStamp>2023-03-08T20:04:52-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>19df1fed3f2fc8344a96e39f5c4989f9</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/UnityClassExtensions.cs</fileName>
+    <timeStamp>2023-09-10T11:17:48-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a6188f3774c086e4f848e691bdc0a0f3</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/EditorCoroutines/EditorCoroutine.cs</fileName>
+    <timeStamp>2023-03-05T19:41:08-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>49991d752023d9343aa02867097faab1</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/EditorCoroutines/EditorCoroutineUtility.cs</fileName>
+    <timeStamp>2023-01-03T15:20:20-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>679780750f0c68d469b159605016dbbf</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/EditorCoroutines/EditorWaitForSeconds.cs</fileName>
+    <timeStamp>2023-01-03T15:20:28-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d534f4e3bd5678d4788a4903be3df700</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/EditorCoroutines/EditorWindowCoroutineExtension.cs</fileName>
+    <timeStamp>2023-01-03T15:20:32-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e6b793b8d90c9104998e1b23a6b55e63</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Input/Binary2TextExec.cs</fileName>
+    <timeStamp>2023-07-17T13:41:56-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>af1558327082e394eb1ee4999aefdd41</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Input/InputManagerMonitor.cs</fileName>
+    <timeStamp>2023-07-17T13:41:56-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>433aff268f748e241b476423bf402bd2</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Input/Text2Yaml.cs</fileName>
+    <timeStamp>2023-09-08T20:27:26-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>95ac6c7c2ea06ae4abe133ce1e89b43d</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Input/UnityInputManager.cs</fileName>
+    <timeStamp>2023-09-19T12:59:54-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e446c39e9930e7a41983cc8134e368df</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Logger/Attributes.cs</fileName>
+    <timeStamp>2023-07-17T13:41:56-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>449ade0793db31a46ba7ac1063c1f1a7</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Logger/CommonTools.cs</fileName>
+    <timeStamp>2023-05-27T18:01:24-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5b0dc79b1b51a9348948d92e8a62def8</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Logger/DomainHashEnricher.cs</fileName>
+    <timeStamp>2023-03-05T19:41:08-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>98b20797706ab8a4fbc775bd9a26a072</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Logger/ELogger.cs</fileName>
+    <timeStamp>2023-07-17T13:41:56-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4cf82805670142d49b030721d8aa1a48</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Logger/MemorySink.cs</fileName>
+    <timeStamp>2023-03-05T19:41:08-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fc3f9ef599610e943872ae0300365606</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Logger/UnitySink.cs</fileName>
+    <timeStamp>2023-03-05T19:41:08-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>41aae9b51e1a75a45ae35b4405352687</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Preferences/PreferenceEntryHolder.cs</fileName>
+    <timeStamp>2023-07-09T13:55:54-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b3a185a1ec0e3c44094314cc08d68dc4</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Preferences/PreferenceMonitor.cs</fileName>
+    <timeStamp>2023-09-09T11:56:04-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>efcccdb6c6e9bf2418c23df272463ca1</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Preferences/PreferenceStorageAccessor.cs</fileName>
+    <timeStamp>2023-09-09T15:48:38-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>657c2cf22cb5e184f8797156170ee021</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/Preferences/RegistryMonitor.cs</fileName>
+    <timeStamp>2023-07-09T14:27:30-07:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>64138c53cc4c5924d838cfcb685f1280</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/TinyJson/JsonParser.cs</fileName>
+    <timeStamp>2023-03-05T19:41:08-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ba9281d85efa5e54e9fdbcfb15f7469d</guid>
+    <fileName>Assets/Plugins/CodeAssist/Editor/TinyJson/JsonWriter.cs</fileName>
+    <timeStamp>2023-01-20T15:52:42-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b766d08851589514b97afb23c6f30a70</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs</fileName>
+    <timeStamp>2024-01-10T23:46:03.6482845-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e944529dcaee98f4e9498d80e541d93e</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs</fileName>
+    <timeStamp>2024-01-10T23:46:03.6532981-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>dae9aa560b4242648a3affa2bfabc365</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs</fileName>
+    <timeStamp>2024-01-10T23:46:03.6532981-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>230fe34542e175245ba74b4659dae700</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs</fileName>
+    <timeStamp>2024-01-10T23:46:03.6532981-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>188918ab119d93148aa0de59ccf5286b</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs</fileName>
+    <timeStamp>2024-01-10T23:46:03.6583456-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a060394c03331a64392db53a10e7f2d1</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs</fileName>
+    <timeStamp>2024-01-10T23:46:03.6583456-08:00</timeStamp>
+    <typeFullName>
+      <string>DG.Tweening.DOTweenModuleUI</string>
+      <string>DG.Tweening.DOTweenModuleUI+Utils</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>63c02322328255542995bd02b47b0457</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs</fileName>
+    <timeStamp>2024-01-10T23:46:03.6583456-08:00</timeStamp>
+    <typeFullName>
+      <string>DG.Tweening.DOTweenModuleUnityVersion</string>
+      <string>DG.Tweening.DOTweenCYInstruction</string>
+      <string>DG.Tweening.DOTweenCYInstruction+WaitForCompletion</string>
+      <string>DG.Tweening.DOTweenCYInstruction+WaitForRewind</string>
+      <string>DG.Tweening.DOTweenCYInstruction+WaitForKill</string>
+      <string>DG.Tweening.DOTweenCYInstruction+WaitForElapsedLoops</string>
+      <string>DG.Tweening.DOTweenCYInstruction+WaitForPosition</string>
+      <string>DG.Tweening.DOTweenCYInstruction+WaitForStart</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7bcaf917d9cf5b84090421a5a2abe42e</guid>
+    <fileName>Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs</fileName>
+    <timeStamp>2024-01-10T23:46:03.6583456-08:00</timeStamp>
+    <typeFullName>
+      <string>DG.Tweening.DOTweenModuleUtils</string>
+      <string>DG.Tweening.DOTweenModuleUtils+Physics</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1b3b87b929d4bf44b8f93ca3e6cc161a</guid>
+    <fileName>Assets/Scripts/DataManager.cs</fileName>
+    <timeStamp>2024-01-29T00:42:48.6803312-08:00</timeStamp>
+    <typeFullName>
+      <string>DataManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1c6a5030a61d76042991cec7985054ef</guid>
+    <fileName>Assets/Scripts/LvlUpManager.cs</fileName>
+    <timeStamp>2024-01-28T23:32:51.3531417-08:00</timeStamp>
+    <typeFullName>
+      <string>LvlUpManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>17d7a9eef667bc645b232f1f3be4f6b2</guid>
+    <fileName>Assets/Scripts/UIManager.cs</fileName>
+    <timeStamp>2024-01-29T02:26:22.9872621-08:00</timeStamp>
+    <typeFullName>
+      <string>UIManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a37d705c8e9115e439ec799186182634</guid>
+    <fileName>Assets/Joystick Pack/Examples/JoystickPlayerExample.cs</fileName>
+    <timeStamp>2024-01-30T12:01:52.5095735-08:00</timeStamp>
+    <typeFullName>
+      <string>JoystickPlayerExample</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3d73bf03f88f371469fd7b43fc97d77e</guid>
+    <fileName>Assets/Joystick Pack/Examples/JoystickSetterExample.cs</fileName>
+    <timeStamp>2024-01-30T12:01:52.5105726-08:00</timeStamp>
+    <typeFullName>
+      <string>JoystickSetterExample</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1784d837396673849bf55986ec29a42e</guid>
+    <fileName>Assets/Scripts/AIPlayer/AIRemoteSync.cs</fileName>
+    <timeStamp>2024-01-29T05:31:11.1672652-08:00</timeStamp>
+    <typeFullName>
+      <string>AIRemoteSync</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>39c2a7440d01f944a8456fbdb1510646</guid>
+    <fileName>Assets/Scripts/AIPlayer/EnemyAI.cs</fileName>
+    <timeStamp>2024-01-30T19:30:57.3458366-08:00</timeStamp>
+    <typeFullName>
+      <string>EnemyAI</string>
+      <string>EnemyAI+EnemyAIEventHandler</string>
+      <string>EnemyAI+State</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9cdb0f08ee61f754dba66f019705f2b9</guid>
+    <fileName>Assets/Scripts/AIPlayer/EnemySpawner.cs</fileName>
+    <timeStamp>2024-01-30T19:31:13.6071757-08:00</timeStamp>
+    <typeFullName>
+      <string>EnemySpawner</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>164786fd5fb332d4e91603b63f1df177</guid>
+    <fileName>Assets/Scripts/Attack/PlayerBiting.cs</fileName>
+    <timeStamp>2024-01-29T03:12:58.509355-08:00</timeStamp>
+    <typeFullName>
+      <string>PlayerBiting</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3b88c3d8ec0556a4690df7638918c8a9</guid>
+    <fileName>Assets/Scripts/Bar/HealthBarFade.cs</fileName>
+    <timeStamp>2024-01-29T03:14:01.4579987-08:00</timeStamp>
+    <typeFullName>
+      <string>HealthBarFade</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a465a898e99fb47438a419f6b2db4816</guid>
+    <fileName>Assets/Scripts/Bar/HealthBarShrink.cs</fileName>
+    <timeStamp>2023-12-27T03:39:22.1618835-08:00</timeStamp>
+    <typeFullName>
+      <string>HealthBarShrink</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cd7cb48d9e2ca174aab12fa9251fc207</guid>
+    <fileName>Assets/Scripts/BaseClasses/BitingSystem.cs</fileName>
+    <timeStamp>2024-01-30T12:02:51.9265834-08:00</timeStamp>
+    <typeFullName>
+      <string>BitingSystem</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fb64f89467b9d1440a96272fc8c96984</guid>
+    <fileName>Assets/Scripts/BaseClasses/HealthSystem.cs</fileName>
+    <timeStamp>2024-01-26T12:46:21.3395023-08:00</timeStamp>
+    <typeFullName>
+      <string>HealthSystem</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a8cd5db84ce5aa44ba18825062b8f1e2</guid>
+    <fileName>Assets/Scripts/BaseClasses/IBitable.cs</fileName>
+    <timeStamp>2024-01-18T11:48:16.2671116-08:00</timeStamp>
+    <typeFullName>
+      <string>IBitable</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f33d84020d95be74cbdae05d2357be5a</guid>
+    <fileName>Assets/Scripts/BaseClasses/PlayerSystem.cs</fileName>
+    <timeStamp>2024-01-29T12:47:25.3647204-08:00</timeStamp>
+    <typeFullName>
+      <string>PlayerSystem</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c2e796d9c9fc66344a102371bd1d45bc</guid>
+    <fileName>Assets/Scripts/BaseClasses/SkillSystem.cs</fileName>
+    <timeStamp>2024-01-29T00:29:48.6959197-08:00</timeStamp>
+    <typeFullName>
+      <string>SkillSystem</string>
+      <string>SkillSystem+SkillEvent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6a4e097e51446cd4ca5082086834c78e</guid>
+    <fileName>Assets/Scripts/Item/Item.cs</fileName>
+    <timeStamp>2024-01-29T06:07:04.4048609-08:00</timeStamp>
+    <typeFullName>
+      <string>Item</string>
+      <string>Item+ItemSpawnEventHandler</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fa303a0333cbb644ab044bb04eea62bb</guid>
+    <fileName>Assets/Scripts/Item/ItemSpawner.cs</fileName>
+    <timeStamp>2024-01-29T06:07:32.2208786-08:00</timeStamp>
+    <typeFullName>
+      <string>ItemSpawner</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2eaed120ff4c8a547b07b572841bed89</guid>
+    <fileName>Assets/Scripts/Item/SpawnListener.cs</fileName>
+    <timeStamp>2024-01-29T11:08:17.7150979-08:00</timeStamp>
+    <typeFullName>
+      <string>SpawnListener</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ed7d00974177c5f4995ec19ef584351e</guid>
+    <fileName>Assets/Scripts/Item/SpawnRemoteSync.cs</fileName>
+    <timeStamp>2024-01-29T11:03:34.653475-08:00</timeStamp>
+    <typeFullName>
+      <string>SpawnRemoteSync</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>705e19dd472def14c864e2eba3653ae2</guid>
+    <fileName>Assets/Scripts/Multiplayer/FindMatch.cs</fileName>
+    <timeStamp>2024-01-30T19:29:35.2476704-08:00</timeStamp>
+    <typeFullName>
+      <string>FindMatch</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a8c0cb990e9835e449143d2f406e426a</guid>
+    <fileName>Assets/Scripts/Multiplayer/GameManager.cs</fileName>
+    <timeStamp>2024-01-30T12:02:51.9265834-08:00</timeStamp>
+    <typeFullName>
+      <string>GameManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a44a37ab35d76ec488d7a3db370a0a27</guid>
+    <fileName>Assets/Scripts/Multiplayer/MatchDataJson.cs</fileName>
+    <timeStamp>2024-01-29T11:05:50.4842799-08:00</timeStamp>
+    <typeFullName>
+      <string>MatchDataJson</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2a3a35cc1c001e54d8590815c68c55b7</guid>
+    <fileName>Assets/Scripts/Multiplayer/OpCodes.cs</fileName>
+    <timeStamp>2024-01-26T11:11:54.9189932-08:00</timeStamp>
+    <typeFullName>
+      <string>OpCodes</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e626fab0e12afb34ea90cb371b9bf897</guid>
+    <fileName>Assets/Scripts/Multiplayer/WakawakaConnection.cs</fileName>
+    <timeStamp>2023-12-24T03:52:13.3315749-08:00</timeStamp>
+    <typeFullName>
+      <string>WakawakaConnection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7700ebd55dfdbf6478e886b8011930fa</guid>
+    <fileName>Assets/Scripts/Player/NewPlayer.cs</fileName>
+    <timeStamp>2024-01-29T11:48:25.7891132-08:00</timeStamp>
+    <typeFullName>
+      <string>NewPlayer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8399d26e110ff5f4d8c653d9a521fe7f</guid>
+    <fileName>Assets/Scripts/Player/OfflinePlayerInput.cs</fileName>
+    <timeStamp>2024-01-27T04:17:26.0384331-08:00</timeStamp>
+    <typeFullName>
+      <string>OfflinePlayerInput</string>
+      <string>OfflinePlayerInput+Device</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>57270295664020a4c8d75d00ae10bc22</guid>
+    <fileName>Assets/Scripts/Player/PlayerCamera.cs</fileName>
+    <timeStamp>2024-01-29T03:37:38.0843618-08:00</timeStamp>
+    <typeFullName>
+      <string>PlayerCamera</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cad0d0a27def04b44b2ddc43ac934bb3</guid>
+    <fileName>Assets/Scripts/Player/PlayerDiedEvent.cs</fileName>
+    <timeStamp>2023-12-26T00:23:21.4057986-08:00</timeStamp>
+    <typeFullName>
+      <string>PlayerDiedEvent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b7f478b151768d8458de03fff37174be</guid>
+    <fileName>Assets/Scripts/Player/PlayerNetworkLocalSync.cs</fileName>
+    <timeStamp>2024-01-29T10:12:48.3218252-08:00</timeStamp>
+    <typeFullName>
+      <string>PlayerNetworkLocalSync</string>
+      <string>PlayerNetworkLocalSync+SyncEvent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e8dc8ed2e8055f946aafc13ed9a884b9</guid>
+    <fileName>Assets/Scripts/Player/PlayerNetworkRemoteSync.cs</fileName>
+    <timeStamp>2024-01-29T11:06:48.5801128-08:00</timeStamp>
+    <typeFullName>
+      <string>PlayerNetworkRemoteSync</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>17c76ec90db39d44e82f37e785ceed0e</guid>
+    <fileName>Assets/Scripts/Player/RemotePlayerNetworkData.cs</fileName>
+    <timeStamp>2023-12-15T02:42:57.1458528-08:00</timeStamp>
+    <typeFullName>
+      <string>RemotePlayerNetworkData</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>69ecfe08605723d4c92737dadc9e5cef</guid>
+    <fileName>Assets/Scripts/Skills/AttackSpeedUp.cs</fileName>
+    <timeStamp>2024-01-29T02:21:42.0847996-08:00</timeStamp>
+    <typeFullName>
+      <string>AttackSpeedUp</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>56cd8b9e7dc313f41b5c68ed31889df0</guid>
+    <fileName>Assets/Scripts/Skills/DamageUp.cs</fileName>
+    <timeStamp>2024-01-29T02:22:04.8533757-08:00</timeStamp>
+    <typeFullName>
+      <string>DamageUp</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>60888775673c3c946ac8e502af5536a1</guid>
+    <fileName>Assets/Scripts/Skills/Regeneration.cs</fileName>
+    <timeStamp>2024-01-25T00:19:45.7414195-08:00</timeStamp>
+    <typeFullName>
+      <string>Regeneration</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ca78b925edf5b5540914896621e5098a</guid>
+    <fileName>Assets/Scripts/Skills/ReverseDirection.cs</fileName>
+    <timeStamp>2024-01-26T02:35:41.2412756-08:00</timeStamp>
+    <typeFullName>
+      <string>ReverseDirection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9980709a28b22b3429ed85ceaccacf40</guid>
+    <fileName>Assets/Scripts/Skills/Rush.cs</fileName>
+    <timeStamp>2024-01-28T21:33:43.1343438-08:00</timeStamp>
+    <typeFullName>
+      <string>Rush</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c5b0af411166c34479961717c176c016</guid>
+    <fileName>Assets/Scripts/water/SurfaceHandler.cs</fileName>
+    <timeStamp>2024-01-22T04:29:19.1283014-08:00</timeStamp>
+    <typeFullName>
+      <string>SurfaceHandler</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2da064dcf57206b4d9c145ba871bb938</guid>
+    <fileName>Assets/Scripts/water/waterPhysics.cs</fileName>
+    <timeStamp>2024-01-10T23:46:03.6332022-08:00</timeStamp>
+    <typeFullName>
+      <string>waterPhysics</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b9fca4100a7477741b3973b4ff2c405f</guid>
+    <fileName>Assets/Joystick Pack/Scripts/Base/Joystick.cs</fileName>
+    <timeStamp>2023-12-26T00:23:21.4575625-08:00</timeStamp>
+    <typeFullName>
+      <string>Joystick</string>
+      <string>AxisOptions</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>52071c88a467b46438b3cbf159bf988b</guid>
+    <fileName>Assets/Joystick Pack/Scripts/Editor/DynamicJoystickEditor.cs</fileName>
+    <timeStamp>2023-12-26T00:23:21.4620741-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>614d06243900d764f9c50b4da2c950a3</guid>
+    <fileName>Assets/Joystick Pack/Scripts/Editor/FloatingJoystickEditor.cs</fileName>
+    <timeStamp>2023-12-26T00:23:21.4620741-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d4b2b0d911a01a64ebfca9918e2b90b4</guid>
+    <fileName>Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs</fileName>
+    <timeStamp>2023-12-26T00:23:21.4655871-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>58b5a2db95af76c4c9d4116a09ec3697</guid>
+    <fileName>Assets/Joystick Pack/Scripts/Editor/VariableJoystickEditor.cs</fileName>
+    <timeStamp>2023-12-26T00:23:21.4655871-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ba0d0e7a039f526499c356a3c5cd6d3f</guid>
+    <fileName>Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs</fileName>
+    <timeStamp>2023-12-26T00:23:21.467105-08:00</timeStamp>
+    <typeFullName>
+      <string>DynamicJoystick</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>45977bbae16431c46a013576a1aea384</guid>
+    <fileName>Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs</fileName>
+    <timeStamp>2023-12-26T00:23:21.467105-08:00</timeStamp>
+    <typeFullName>
+      <string>FixedJoystick</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7a47f546fc70ec8428172694e78e4288</guid>
+    <fileName>Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs</fileName>
+    <timeStamp>2023-12-26T00:23:21.467105-08:00</timeStamp>
+    <typeFullName>
+      <string>FloatingJoystick</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>42844a4fccbd54746b90cade4ff70f73</guid>
+    <fileName>Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs</fileName>
+    <timeStamp>2023-12-26T00:23:21.4716447-08:00</timeStamp>
+    <typeFullName>
+      <string>VariableJoystick</string>
+      <string>JoystickType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>99be4aa47b3a3473eb3265bf4087061e</guid>
+    <fileName>Assets/Packages/Nakama/Runtime/ClientExtensions.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.4494264-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c49f370c669eb4f5ea65084ed4075eab</guid>
+    <fileName>Assets/Packages/Nakama/Runtime/JsWebSocketAdapter.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.4494264-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7286bc6ea2d7f4437bc18f2e5063e1b5</guid>
+    <fileName>Assets/Packages/Nakama/Runtime/UnityLogger.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.4631042-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f3a776f6712cb47c28dd3d0802f283f8</guid>
+    <fileName>Assets/Packages/Nakama/Runtime/UnitySocket.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.4631042-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c23b35d6f5f35479bb9b985f3e4348d8</guid>
+    <fileName>Assets/Packages/Nakama/Runtime/UnityWebRequestAdapter.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.4631042-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0d440bfd83e9f53488c22a30a584365a</guid>
+    <fileName>Assets/Scripts/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2022-12-13T19:37:40-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>da08487660fe0c4429b1678203028593</guid>
+    <fileName>Assets/Scripts/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-13T19:37:40-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>61895e29621c8f147acdd5d4779a8207</guid>
+    <fileName>Assets/Scripts/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-13T19:37:40-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d0a9cc19206d84842bc09cf4cdb1ec1a</guid>
+    <fileName>Assets/Scripts/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2022-12-13T19:37:40-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>af0d1f4991bcd33489e1427f95a0bcc8</guid>
+    <fileName>Assets/Scripts/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2022-12-13T19:37:40-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5555312228f167342bc9f008e88ed4bd</guid>
+    <fileName>Assets/Scripts/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-13T19:37:40-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8c3a71dc6ff64337a47cffda0682814c</guid>
+    <fileName>Assets/Packages/Nakama/Editor/Snippets/AccountAndUsers.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.4305613-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>956b69bdb3f44a97a23ab3d8804f7353</guid>
+    <fileName>Assets/Packages/Nakama/Editor/Snippets/DeviceAuthentication.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.4305613-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e04008b99192461ab81d22ad0af6841b</guid>
+    <fileName>Assets/Packages/Nakama/Editor/Snippets/MatchmakerWithRelayedMultiplayer.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.435082-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5c97dc1262b44d49b10e1a2cc88c37ec</guid>
+    <fileName>Assets/Packages/Nakama/Editor/Snippets/NakamaManager.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.435082-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>244c2c95261a4830ba629a855566b7ff</guid>
+    <fileName>Assets/Packages/Nakama/Editor/Snippets/NakamaManagerUsage.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.435082-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1ba16ca475cf40b6b4a71c19328d89cf</guid>
+    <fileName>Assets/Packages/Nakama/Editor/Snippets/RealtimeChatRoom.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.435082-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0005fa3038e840b3afa093735c5d46cb</guid>
+    <fileName>Assets/Packages/Nakama/Editor/Snippets/RejoinChatAfterDisconnect.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.4395941-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e3e33d25298794d5b8ec1a164c995240</guid>
+    <fileName>Assets/Packages/Nakama/Editor/Snippets/SatoriExample.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.4406026-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fa133de15c7554171874f86930c58729</guid>
+    <fileName>Assets/Packages/Nakama/Editor/Snippets/SocketConnect.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.4406026-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>09ed43bc6e8254522ad7044145b2f5bf</guid>
+    <fileName>Assets/Packages/Nakama/Editor/Snippets/WebGLConnect.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.4406026-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ae3b7b34adbd0434f837d2b5a6058065</guid>
+    <fileName>Assets/Packages/Nakama/Runtime/Satori/UnityLogger.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.458525-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7328a9c3e42f84294ac53e8712835c35</guid>
+    <fileName>Assets/Packages/Nakama/Runtime/Satori/UnityWebRequestAdapter.cs</fileName>
+    <timeStamp>2023-12-14T10:03:41.458525-08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+</ArrayOfTypeDate>
