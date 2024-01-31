@@ -17,7 +17,6 @@ public class EnemyAI : PlayerSystem
     public State currentState;
     public bool stateChanged;
 
-    [HideInInspector] public int modelIndex;
     [HideInInspector] public int posIndex;
 
     // Start is called before the first frame update

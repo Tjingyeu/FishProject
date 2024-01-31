@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 9057684366064480011}
   - component: {fileID: 5836059224381854736}
   - component: {fileID: 5288909630056424744}
+  - component: {fileID: 3595073607068577072}
   m_Layer: 8
   m_Name: meat(3)
   m_TagString: food
@@ -243,6 +244,27 @@ MonoBehaviour:
   score: 0
   index: 0
   posIndex: 0
+--- !u!95 &3595073607068577072
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4315498704536316660}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 143cbcafcb2a87f43a3f68baee1f767e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8123956159154801279
 GameObject:
   m_ObjectHideFlags: 0

@@ -35,9 +35,9 @@ public class ItemSpawner : MonoBehaviour
 
         Vector3 randomPosition = DataManager.instance.spawnPoints[spawnIndex];
 
-        int randomIdex = Random.Range(0, DataManager.instance.itemPrefabs.Count);
+        int randomIdex = Random.Range(0, DataManager.instance.items.Count);
         // Choose a random item prefab from the array
-        GameObject randomItemSpawned = DataManager.instance.itemPrefabs[randomIdex];
+        GameObject randomItemSpawned = DataManager.instance.items[randomIdex];
 
         // Spawn the chosen item at the random position
         Instantiate(randomItemSpawned, randomPosition, Quaternion.identity);

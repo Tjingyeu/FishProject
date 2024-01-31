@@ -15,6 +15,7 @@ public class PlayerSystem : MonoBehaviour
     [HideInInspector]public Animator animator;
     [HideInInspector]public int groupNumber;
     [HideInInspector]public LvlUpManager lvl;
+    [HideInInspector]public int modelIndex;
 
     public float speed = 1500f;
     public Image healthImage;
@@ -43,8 +44,9 @@ public class PlayerSystem : MonoBehaviour
     public void InitializeDetails(int _modelIndex, int group_Num)
     {
         groupNumber = group_Num;
+        modelIndex = _modelIndex;
 
-        model = Instantiate(DataManager.instance.playerModels[_modelIndex],transform).transform;
+        model = Instantiate(DataManager.instance.playerSmallModels[_modelIndex],transform).transform;
         mouth = model.Find("mouthPlace").Find("mouth");
         animator = model.GetComponent<Animator>();
 

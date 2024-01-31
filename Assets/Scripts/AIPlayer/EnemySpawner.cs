@@ -18,7 +18,7 @@ public class EnemySpawner : MonoBehaviour
 
         enemyAI.posIndex = pos_Index;
 
-        enemyAI.modelIndex = Random.Range(0, DataManager.instance.playerModels.Count);
+        enemyAI.modelIndex = Random.Range(0, DataManager.instance.playerSmallModels.Count);
 
         enemyAI.InitializeDetails(enemyAI.modelIndex, GameManager.GetTeamNumber());
 

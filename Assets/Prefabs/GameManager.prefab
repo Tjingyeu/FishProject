@@ -53,6 +53,7 @@ MonoBehaviour:
   startGameMenu: {fileID: 0}
   InputButtons: {fileID: 0}
   timerstart: 0
+  teamNumber: 0
 --- !u!114 &3927705277625334675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,13 +66,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3b87b929d4bf44b8f93ca3e6cc161a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerModels:
-  - {fileID: 2154414513101297940, guid: e42af5c0ff80b0d4eb393bfe9fa6353a, type: 3}
-  - {fileID: 3491632009079038940, guid: 8be114c04c51aa74780ad651008f829b, type: 3}
-  - {fileID: 3649190772282629161, guid: 5e04f91d80d1c964ebe928f823e386bc, type: 3}
+  playerSmallModels:
+  - {fileID: 8950889447570426988, guid: a335a29a7061a3d47b444e2cee46fcb1, type: 3}
   - {fileID: 6540402556106004619, guid: ad3de2692981f2940b7726de59329ab2, type: 3}
   - {fileID: 5564232111547637104, guid: a499185f24ce86a4b83f7172f55a4e22, type: 3}
-  - {fileID: 8950889447570426988, guid: a335a29a7061a3d47b444e2cee46fcb1, type: 3}
+  - {fileID: 3649190772282629161, guid: 5e04f91d80d1c964ebe928f823e386bc, type: 3}
+  - {fileID: 3491632009079038940, guid: 8be114c04c51aa74780ad651008f829b, type: 3}
+  - {fileID: 2154414513101297940, guid: e42af5c0ff80b0d4eb393bfe9fa6353a, type: 3}
+  playerBigModels:
+  - {fileID: 6944591131078950210, guid: 97578618dbbe3c54b8f340c5dd47160d, type: 3}
+  - {fileID: 8887701836947498054, guid: ce5c30f616a438640ab38ae47693cfbe, type: 3}
+  - {fileID: 5506545654264717230, guid: 4a47e3dd325f728469cbb297cf3de427, type: 3}
+  - {fileID: 3378541179949719529, guid: f1cd28bf92eac784e808af2d4a613ab3, type: 3}
+  - {fileID: 3523239355767878463, guid: 73589122d48645844af2ad4a86df2263, type: 3}
+  - {fileID: 4588751812486887795, guid: c584ce3e0ccb1594aa0c1a9712c095e0, type: 3}
   spawnPoints:
   - {x: 50, y: 350, z: 0}
   - {x: -150, y: 300, z: 0}
@@ -107,7 +115,7 @@ MonoBehaviour:
   - {x: 200, y: -15, z: 0}
   - {x: 300, y: -15, z: 0}
   - {x: 400, y: -15, z: 0}
-  itemPrefabs:
+  items:
   - {fileID: 5623431855591627515, guid: 5fca4a3ec26e8744cb53f72e8159d85b, type: 3}
   - {fileID: 3530419670987736028, guid: cd4aca7afa6dbd641ba9dc89c851764e, type: 3}
   - {fileID: 908621247513041878, guid: 2050650493193f743a99b6b1260a7bfc, type: 3}

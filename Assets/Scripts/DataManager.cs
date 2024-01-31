@@ -5,11 +5,13 @@ using UnityEngine;
 
 public class DataManager : MonoBehaviour
 {
-    public List<GameObject> playerModels = new();
+    public List<GameObject> playerSmallModels = new();
+    public List<GameObject> playerBigModels = new();
+
 
     public List<Vector3> spawnPoints = new();
 
-    public List<GameObject> itemPrefabs = new();
+    public List<GameObject> items = new();
 
     public List<GameObject> meats = new();
 

@@ -5,7 +5,7 @@ public class SpawnRemoteSync : MonoBehaviour
     public GameObject enemy_prefab;
     public void ItemSpawn(int posIndex, int index)
     {
-        Instantiate(DataManager.instance.itemPrefabs[index], DataManager.instance.spawnPoints[posIndex], Quaternion.identity);
+        Instantiate(DataManager.instance.items[index], DataManager.instance.spawnPoints[posIndex], Quaternion.identity);
     }
 
     public void MeatSpawn(Vector3 position, int index)

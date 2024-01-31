@@ -58,6 +58,12 @@ public class LvlUpManager : MonoBehaviour
         health.healthSystem.healthAmount += 20 * currentLvl;
         health.SetHealthAmount(health.healthSystem.GetHealthNormalized());
 
+        if(currentLvl == 3)
+        {
+            Destroy(playerSystem.model.gameObject);
+            playerSystem.model = Instantiate(DataManager.instance.playerBigModels[playerSystem.modelIndex], transform).transform;
+            return;
+        }
         playerSystem.model.DOScale(playerSystem.model.transform.localScale + new Vector3(0.3f, 0.3f, 0.3f), 1f);
     }
 

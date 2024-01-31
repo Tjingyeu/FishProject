@@ -257,7 +257,7 @@ public class GameManager : MonoBehaviour
     public static int GetTeamNumber()
     {
         if (gameMode == GameMode.Team)
-            return Random.Range(0, 2);
+            return Random.Range(0, 100) % 2;
         else
             return Random.Range(0, 10000);
     }
