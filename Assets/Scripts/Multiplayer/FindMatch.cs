@@ -1,16 +1,22 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class FindMatch : MonoBehaviour
 {
-    public GameObject FindMatchBtn;
-    public GameObject FindingBtn;
+    public GameObject PartyFindMatchBtn;
+    public GameObject soloFindMatchBtn;
+    public GameObject PartyFinding;
+    public GameObject SoloFinding;
     public GameObject inputButton;
     public GameObject StartMenu;
     public GameObject DailyRewards;
     public GameObject loadingCircle;
-    public Button FindMatchButton;
-    public Button CancelMatchmakingButton;
+
+    public Button PartyFindMatchButton;
+    public Button soloFindMatchButton;
+    public Button PartyCancelButton;
+    public Button SoloCancelButton;
     public Button DailyReward_btn;
     public Button close_dailyRWD_btn;
 
@@ -27,34 +33,42 @@ public class FindMatch : MonoBehaviour
         }
 
         // Add event listeners for the menu buttons.
-        FindMatchButton.onClick.AddListener(Find_Match);
+        //for finding match
+        PartyFindMatchButton.onClick.AddListener(Party_Find_Match);
+        soloFindMatchButton.onClick.AddListener(Solo_Find_Match);
+        //other menues
         close_dailyRWD_btn.onClick.AddListener(DailyRewardMenuClose);
         DailyReward_btn.onClick.AddListener(DailyRewardMenu);
-        CancelMatchmakingButton.onClick.AddListener(CancelMatchmaking);
-        FindMatchButton.interactable = false;
+        //for canceling the match
+        PartyCancelButton.onClick.AddListener(CancelPartyMatchmaking);
+        SoloCancelButton.onClick.AddListener(CancelSoloMatchmaking);
+
+        DisableFindMatchButton();
     }
 
     #region 
     private void OnDestroy()
     {
         // Remove event listeners for the menu buttons.
-        FindMatchButton.onClick.RemoveListener(Find_Match);
-        CancelMatchmakingButton.onClick.RemoveListener(CancelMatchmaking);
+        PartyFindMatchButton.onClick.RemoveListener(Party_Find_Match);
+        PartyCancelButton.onClick.RemoveListener(CancelPartyMatchmaking);
     }
 
     public void EnableFindMatchButton()
     {
-        FindMatchButton.interactable = true;
+        PartyFindMatchButton.interactable = true;
+        soloFindMatchButton.interactable = true;
     }
     public void DisableFindMatchButton()
     {
-        FindMatchButton.interactable = false;
+        PartyFindMatchButton.interactable = false;
+        soloFindMatchButton.interactable = false;
     }
 
     public void DeactivateMenu()
     {
-        FindMatchBtn.SetActive(false);
-        FindingBtn.SetActive(false);
+        PartyFindMatchBtn.SetActive(false);
+        PartyFinding.SetActive(false);
         StartMenu.SetActive(false);
         
         //gameObject.SetActive(false);
@@ -70,28 +84,61 @@ public class FindMatch : MonoBehaviour
     {
         DailyRewards.SetActive(false);
     }
-    public async void Find_Match()
+    public async void Party_Find_Match()
     {
-    
-        FindMatchBtn.SetActive(false);
-        FindingBtn.SetActive(true);
+        //PartyFindMatchBtn.SetActive(false);
+        soloFindMatchButton.interactable = false;
+        PartyFinding.SetActive(true);
 
         //PlayerPrefs.SetString("Name", NameField.text);
         //gameManager.SetDisplayName(NameField.text);
         Debug.Log("finding");
         loadingCircle.SetActive(true);
 
-        await gameManager.WakaConnection.FindMatch(playerNum);
+        GameManager.gameMode = GameManager.GameMode.Team;
+
+        await gameManager.WakaConnection.FindMatch(playerNum, "party");
+
+        Debug.Log("matches" + " with size " + playerNum);
+    }
+
+    public async void Solo_Find_Match()
+    {
+        //PartyFindMatchBtn.SetActive(false);
+        PartyFindMatchButton.interactable = false;
+        SoloFinding.SetActive(true);
+
+        //PlayerPrefs.SetString("Name", NameField.text);
+        //gameManager.SetDisplayName(NameField.text);
+        Debug.Log("finding");
+        loadingCircle.SetActive(true);
+
+        GameManager.gameMode = GameManager.GameMode.Solo;
+
+        await gameManager.WakaConnection.FindMatch(playerNum, "solo");
 
         Debug.Log("matches" + " with size " + playerNum);
     }
 
 
-    public async void CancelMatchmaking()
+    public async void CancelPartyMatchmaking()
     {
-        FindMatchBtn.SetActive(true);
-        FindingBtn.SetActive(false);
+        //PartyFindMatchBtn.SetActive(true);
+        PartyFinding.SetActive(false);
         loadingCircle.SetActive(false);
+
+        soloFindMatchButton.interactable = true;
+
+        await gameManager.WakaConnection.CancelMatchmaking();
+    }
+
+    public async void CancelSoloMatchmaking()
+    {
+        //PartyFindMatchBtn.SetActive(true);
+        SoloFinding.SetActive(false);
+        loadingCircle.SetActive(false);
+
+        PartyFindMatchButton.interactable = true;
 
         await gameManager.WakaConnection.CancelMatchmaking();
     }

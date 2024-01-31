@@ -84,29 +84,32 @@ public class EnemyAI : PlayerSystem
     {
         stateChanged = false;
         nearestTarget = GetNearestTarget();
-        if(nearestTarget != null)
+        if (nearestTarget == null)
         {
-            TowardTarget(TargetDir(nearestTarget.position), 2 * speed);
+            currentState = State.Idle;
+            return;
+        }
 
-            if (!canBite)
+        TowardTarget(TargetDir(nearestTarget.position), 2 * speed);
+
+        if (!canBite)
+        {
+            canBite = true;
+            mouth.gameObject.SetActive(true);
+            animator.SetTrigger("eat");
+        }
+
+        if (canBite)
+        {
+            timer += Time.deltaTime;
+            if (timer >= ATTACK_ACTION_TIME)
             {
-                canBite = true;
-                mouth.gameObject.SetActive(true);
-                animator.SetTrigger("eat");
+                mouth.gameObject.SetActive(false);
             }
-
-            if (canBite)
+            if (timer >= ATTACK_RATE + 0.2f)
             {
-                timer += Time.deltaTime;
-                if (timer >= ATTACK_ACTION_TIME)
-                {
-                    mouth.gameObject.SetActive(false);
-                }
-                if (timer >= ATTACK_RATE + 0.2f)
-                {
-                    timer = 0f;
-                    canBite = false;
-                }
+                timer = 0f;
+                canBite = false;
             }
         }
     }

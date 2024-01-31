@@ -2,7 +2,7 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SkillSystem : MonoBehaviour
+public class SkillSystem : MonoBehaviour,IBitable
 {
     public delegate void SkillEvent();
     public SkillEvent OnSkillEffect;
@@ -68,5 +68,11 @@ public class SkillSystem : MonoBehaviour
         {
             skillBtn.interactable = true;
         });
+    }
+
+    public void BiteDmg(Transform other)
+    {
+        if (transform.parent.GetComponent<PlayerSystem>().groupNumber != other.GetComponent<PlayerSystem>().groupNumber)
+            transform.parent.GetComponentInChildren<HealthBarFade>().healthSystem.Damage(other.GetComponent<PlayerSystem>().attack_dmg);
     }
 }

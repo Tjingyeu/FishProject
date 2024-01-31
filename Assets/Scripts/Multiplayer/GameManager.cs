@@ -20,6 +20,13 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public bool timerstart =false;
     public static GameObject localPlayer;
 
+    public enum GameMode
+    {
+        Team,Solo
+    }
+    public static GameMode gameMode;
+    public int teamNumber;
+
     private float startingTime = 0;
     private IDictionary<string, GameObject> players;
     private IUserPresence localUser;
@@ -240,21 +247,18 @@ public class GameManager : MonoBehaviour
 
     private async void SelectPlayerModel(GameObject player)
     {
-        player.GetComponent<NewPlayer>().InitializeDetails(UIManager.instance.selectedPlayerIndex, Random.Range(0, 2));
+        player.GetComponent<NewPlayer>().InitializeDetails(UIManager.instance.selectedPlayerIndex, GameManager.GetTeamNumber());
 
         await Task.Delay(500);
         await SendMatchStateAsync(OpCodes.PlayerModelIndex,
             MatchDataJson.PlayerModelIndex(UIManager.instance.selectedPlayerIndex, player.GetComponent<NewPlayer>().groupNumber));
     }
 
-    //private void CreateTeams()
-    //{
-    //    foreach (var player in players)
-    //    {
-    //        player.Value.GetComponent<PlayerSystem>().
-    //            HealthColor(
-    //            player.Value.GetComponent<PlayerSystem>().groupNumber 
-    //            == localPlayer.GetComponent<PlayerSystem>().groupNumber);
-    //    }
-    //}
+    public static int GetTeamNumber()
+    {
+        if (gameMode == GameMode.Team)
+            return Random.Range(0, 2);
+        else
+            return Random.Range(0, 10000);
+    }
 }

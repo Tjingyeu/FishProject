@@ -1,7 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using UnityEngine;
 
 public class BitingSystem : MonoBehaviour
@@ -11,7 +9,6 @@ public class BitingSystem : MonoBehaviour
     protected Transform headTrans;
 
     private FixedJoint mouthJoint;
-    private int itemScore;
 
     public void BitingStart(Collider other)
     {
@@ -20,33 +17,9 @@ public class BitingSystem : MonoBehaviour
         mouthJoint.connectedBody = other.attachedRigidbody;
         rb.isKinematic = true;
 
-
-        //for gaining score and xp
-        if (other.TryGetComponent(out Item item))
-        {
-            //destroy item and gain xp
-            lvlDesign.XPGain(item.SetScore(lvlDesign.currentLvl));
-
-            if (headTrans.CompareTag("Player"))
-                item.isPlayer = true;
-        }
-
         //bite damage
-        IBitable bitedObject;
-        if (other.TryGetComponent(out IBitable iBitable))
-        {
-            bitedObject = iBitable;
-            bitedObject.BiteDmg();
-        }
-        else
-        {
-            bitedObject = other.GetComponentInParent<IBitable>();
-            if(headTrans.GetComponent<PlayerSystem>().groupNumber != other.GetComponentInParent<PlayerSystem>().groupNumber)
-            {
-                bitedObject.BiteDmg();
-            }
-        }
-
+        if (other.TryGetComponent(out IBitable bitedObject))
+            bitedObject.BiteDmg(headTrans);
     }
 
     public void BitingEnd()
@@ -59,6 +32,9 @@ public class BitingSystem : MonoBehaviour
 
     public IEnumerator Bite(Collider other)
     {
+        if (other == null)
+            yield return null;
+
         BitingStart(other);
 
         yield return new WaitForSeconds(headTrans.GetComponent<PlayerSystem>().ATTACK_ACTION_TIME);

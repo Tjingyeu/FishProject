@@ -81,7 +81,7 @@ public class HealthBarFade : MonoBehaviour {
 
             //spawning fresh meat
             GameObject meat = Instantiate(DataManager.instance.meats[Random.Range(0, 3)], parent.transform.position, parent.transform.rotation);
-            meat.GetComponent<Item>().SetScore(parent.GetComponent<LvlUpManager>().currentLvl);
+            meat.GetComponent<Item>().score = parent.GetComponent<LvlUpManager>().currentLvl;
         }
 
         SetHealth(healthSystem.GetHealthNormalized());

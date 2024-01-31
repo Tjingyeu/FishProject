@@ -65,9 +65,28 @@ public class WakawakaConnection : MonoBehaviour
 
     }
 
-    public async Task FindMatch(int minPlayers)
+    public async Task FindMatch(int minPlayers, string gameMode)
     {
-        var matchmakerTicket = await Socket.AddMatchmakerAsync("*", minPlayers,minPlayers, null,null);
+        Dictionary<string, string> stringProperties;
+        string query;
+
+        if (gameMode == "solo")
+        {
+            stringProperties = new Dictionary<string, string>() {
+            {"gameMode", "solo"}};
+
+            query = "+properties.gameMode:solo";
+        }
+        else
+        {
+            stringProperties = new Dictionary<string, string>() {
+            {"gameMode", "party"}};
+
+            query = "+properties.gameMode:party";
+        }
+
+
+        var matchmakerTicket = await Socket.AddMatchmakerAsync(query, minPlayers, minPlayers, stringProperties, null);
         currentMatchmakingTicket = matchmakerTicket.Ticket;
 
         print(matchmakerTicket);

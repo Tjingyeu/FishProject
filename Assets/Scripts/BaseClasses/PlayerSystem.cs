@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerSystem : MonoBehaviour, IBitable
+public class PlayerSystem : MonoBehaviour
 {
     //attack properties
     [HideInInspector]public float ATTACK_RATE = 1f;
@@ -14,6 +14,7 @@ public class PlayerSystem : MonoBehaviour, IBitable
     [HideInInspector]public bool jumped = false;
     [HideInInspector]public Animator animator;
     [HideInInspector]public int groupNumber;
+    [HideInInspector]public LvlUpManager lvl;
 
     public float speed = 1500f;
     public Image healthImage;
@@ -25,7 +26,6 @@ public class PlayerSystem : MonoBehaviour, IBitable
     protected Rigidbody rb;
     protected bool targeting = false;
     protected List<Collider> target = new();
-    protected LvlUpManager lvl;
     protected float timer;
 
     //we need to get the direction 
@@ -62,7 +62,7 @@ public class PlayerSystem : MonoBehaviour, IBitable
 
     public Transform GetNearestTarget()
     {
-        float temp = (transform.position - target[0].transform.position).sqrMagnitude;
+        float temp = 100f;
         Transform nearer = null;
 
         for (int i = 0; i < target.Count; i++)
@@ -79,6 +79,7 @@ public class PlayerSystem : MonoBehaviour, IBitable
                         {
                             //for ignoring friends
                             Debug.Log("it is friend");
+                            temp = 100f;
                             nearer = null;
                             continue;
                         }
@@ -114,9 +115,5 @@ public class PlayerSystem : MonoBehaviour, IBitable
         {
             healthImage.color = new Color(222f, 22f, 22f, 255f) / 255f;
         }
-    }
-    public void BiteDmg()
-    {
-        GetComponentInChildren<HealthBarFade>().healthSystem.Damage(attack_dmg);
     }
 }

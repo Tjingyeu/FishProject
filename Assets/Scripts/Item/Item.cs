@@ -24,22 +24,24 @@ public class Item : MonoBehaviour,IBitable
             return;
     }
 
-    public void BiteDmg()
+    public void BiteDmg(Transform other)
     {
-        if(isPlayer)
-            UIManager.instance.ShowText(transform.position, "+" + score, Color.yellow);
+        score = Random.Range(5, 10) * other.GetComponent<PlayerSystem>().lvl.currentLvl;
+
+        other.GetComponent<PlayerSystem>().lvl.XPGain(score);
+
+        if(GameManager.localPlayer != null)
+            if (GameManager.localPlayer.transform == other)
+                UIManager.instance.ShowText(transform.position, "+" + score, Color.yellow);
 
         if (TryGetComponent(out Animator animator))
             animator.enabled = true;
 
-        GameObject bubbleIns = Instantiate(bubble, transform.position, Quaternion.identity);
-        Destroy(gameObject, 0.8f);
-        Destroy(bubbleIns, 0.8f);
-    }
 
-    public int SetScore(int itemPower)
-    {
-        score = Random.Range(5, 10) * itemPower;
-        return score;
+        Destroy(gameObject, 0.8f);
+        //explode with bubble
+        Destroy(Instantiate(bubble, transform.position, Quaternion.identity), 0.8f);
+
+        //Destroy(this);//just diabling the script after bite
     }
 }

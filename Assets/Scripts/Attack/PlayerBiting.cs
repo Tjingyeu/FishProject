@@ -8,7 +8,7 @@ public class PlayerBiting : BitingSystem
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other != null)
+        if(other != null)
             if (!other.isTrigger)
             {
                 StartCoroutine(Bite(other));

@@ -20,7 +20,7 @@ public class EnemySpawner : MonoBehaviour
 
         enemyAI.modelIndex = Random.Range(0, DataManager.instance.playerModels.Count);
 
-        enemyAI.InitializeDetails(enemyAI.modelIndex, Random.Range(0, 2));
+        enemyAI.InitializeDetails(enemyAI.modelIndex, GameManager.GetTeamNumber());
 
         enemyAI.GetComponentInChildren<HealthBarFade>().playerDied.AddListener(DeathEvent);
 
