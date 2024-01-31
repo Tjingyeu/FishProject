@@ -28,8 +28,8 @@ public class PlayerCamera : MonoBehaviour
     }
     private void Clamping()
     {
-        limitedY = Mathf.Clamp(transform.position.y, -55f, 500f);
-        limitedX = Mathf.Clamp(transform.position.x, -500f, 500f);
+        limitedY = Mathf.Clamp(transform.position.y, -45f, 500f);
+        limitedX = Mathf.Clamp(transform.position.x, -400f, 400f);
         transform.position = new Vector3(limitedX, limitedY, transform.position.z);
     }
 }

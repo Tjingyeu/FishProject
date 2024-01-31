@@ -135,7 +135,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 8
+  m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2772049444650374823
 MonoBehaviour:
@@ -153,7 +153,7 @@ MonoBehaviour:
   isPlayer: 0
   score: 0
   index: 1
-  posIndex: 21
+  posIndex: 17
 --- !u!114 &-4053756448976143344
 MonoBehaviour:
   m_ObjectHideFlags: 0

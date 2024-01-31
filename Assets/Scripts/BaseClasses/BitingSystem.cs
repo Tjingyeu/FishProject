@@ -18,7 +18,7 @@ public class BitingSystem : MonoBehaviour
         rb.isKinematic = true;
 
         //bite damage
-        if (other.TryGetComponent(out IBitable bitedObject))
+        if (other.TryGetComponent(out IBitable bitedObject) || other.transform.parent.TryGetComponent(out bitedObject))
             bitedObject.BiteDmg(headTrans);
     }
 

@@ -28,7 +28,6 @@ public class Item : MonoBehaviour,IBitable
     {
         score = Random.Range(5, 10) * other.GetComponent<PlayerSystem>().lvl.currentLvl;
 
-        other.GetComponent<PlayerSystem>().lvl.XPGain(score);
 
         if(GameManager.localPlayer != null)
             if (GameManager.localPlayer.transform == other)
@@ -43,5 +42,7 @@ public class Item : MonoBehaviour,IBitable
         Destroy(Instantiate(bubble, transform.position, Quaternion.identity), 0.8f);
 
         //Destroy(this);//just diabling the script after bite
+
+        other.GetComponent<PlayerSystem>().lvl.XPGain(score);
     }
 }

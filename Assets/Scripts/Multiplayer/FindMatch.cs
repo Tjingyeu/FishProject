@@ -74,6 +74,8 @@ public class FindMatch : MonoBehaviour
         //gameObject.SetActive(false);
         inputButton.SetActive(true);
         loadingCircle.SetActive(false);
+
+        Destroy(UIManager.instance.currentModel);
     }
 
     public void DailyRewardMenu()

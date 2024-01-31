@@ -9,11 +9,14 @@ public class UIManager : MonoBehaviour
 
     [HideInInspector] public int selectedPlayerIndex = 0;
     [HideInInspector] public bool showText = false;
+    [HideInInspector] public GameObject currentModel;
 
-    public static UIManager instance;
     public Button skillBtn;
     public Image skillImage;
+    public Transform modelHolder;
 
+
+    public static UIManager instance;
     // Start is called before the first frame update
     void Awake()
     {
@@ -21,12 +24,18 @@ public class UIManager : MonoBehaviour
             Destroy(this);
         instance = this;
     }
+    private void Start()
+    {
+        currentModel = modelHolder.GetChild(0).gameObject;
+    }
     //for selecting the player in menu
     public void SetPlayer(int modelIndex)
     {
         if (modelIndex != selectedPlayerIndex)
         {
             selectedPlayerIndex = modelIndex;
+            Destroy(currentModel);
+            currentModel = Instantiate(DataManager.instance.playerModels[modelIndex], modelHolder);
         }
     }
 

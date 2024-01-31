@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerSystem : MonoBehaviour
+public class PlayerSystem : MonoBehaviour,IBitable
 {
     //attack properties
     [HideInInspector]public float ATTACK_RATE = 1f;
@@ -45,21 +45,30 @@ public class PlayerSystem : MonoBehaviour
     {
         groupNumber = group_Num;
         modelIndex = _modelIndex;
+        lvl = GetComponent<LvlUpManager>();
+        rb = GetComponent<Rigidbody>();
 
-        model = Instantiate(DataManager.instance.playerSmallModels[_modelIndex],transform).transform;
-        mouth = model.Find("mouthPlace").Find("mouth");
-        animator = model.GetComponent<Animator>();
+        ModelInitialization(false);
 
         //changing the color of the healthbar based on friend an foe
         HealthColor(GameManager.localPlayer.GetComponent<PlayerSystem>().groupNumber == groupNumber);
 
+        attack_dmg = 10;
+    }
+
+    public void ModelInitialization(bool upgraded)
+    {
+        model = upgraded
+            ? Instantiate(DataManager.instance.playerBigModels[modelIndex], transform).transform
+            : Instantiate(DataManager.instance.playerSmallModels[modelIndex], transform).transform;
+
+        mouth = model.Find("mouthPlace").Find("mouth");
+        animator = model.GetComponent<Animator>();
+
+        rb.isKinematic = false;
+
         //in the initialization ignore collision
         IgnoreCollisionWithSelf();
-
-        lvl = GetComponent<LvlUpManager>();
-        rb = GetComponent<Rigidbody>();
-
-        attack_dmg = 10;
     }
 
     public Transform GetNearestTarget()
@@ -117,5 +126,11 @@ public class PlayerSystem : MonoBehaviour
         {
             healthImage.color = new Color(222f, 22f, 22f, 255f) / 255f;
         }
+    }
+
+    public void BiteDmg(Transform other)
+    {
+        if (groupNumber != other.GetComponent<PlayerSystem>().groupNumber)
+            GetComponentInChildren<HealthBarFade>().healthSystem.Damage(other.GetComponent<PlayerSystem>().attack_dmg);
     }
 }

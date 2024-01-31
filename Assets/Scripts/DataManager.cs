@@ -7,6 +7,7 @@ public class DataManager : MonoBehaviour
 {
     public List<GameObject> playerSmallModels = new();
     public List<GameObject> playerBigModels = new();
+    public List<GameObject> playerModels = new();
 
 
     public List<Vector3> spawnPoints = new();

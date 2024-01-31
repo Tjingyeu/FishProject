@@ -67,19 +67,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSmallModels:
-  - {fileID: 8950889447570426988, guid: a335a29a7061a3d47b444e2cee46fcb1, type: 3}
+  - {fileID: 8950889447570426988, guid: 65f742b90f9e50e429339465ce1d56d2, type: 3}
+  - {fileID: 3491632009079038940, guid: 8be114c04c51aa74780ad651008f829b, type: 3}
+  - {fileID: 3649190772282629161, guid: 5e04f91d80d1c964ebe928f823e386bc, type: 3}
   - {fileID: 6540402556106004619, guid: ad3de2692981f2940b7726de59329ab2, type: 3}
   - {fileID: 5564232111547637104, guid: a499185f24ce86a4b83f7172f55a4e22, type: 3}
-  - {fileID: 3649190772282629161, guid: 5e04f91d80d1c964ebe928f823e386bc, type: 3}
-  - {fileID: 3491632009079038940, guid: 8be114c04c51aa74780ad651008f829b, type: 3}
-  - {fileID: 2154414513101297940, guid: e42af5c0ff80b0d4eb393bfe9fa6353a, type: 3}
+  - {fileID: 8950889447570426988, guid: a335a29a7061a3d47b444e2cee46fcb1, type: 3}
   playerBigModels:
-  - {fileID: 6944591131078950210, guid: 97578618dbbe3c54b8f340c5dd47160d, type: 3}
-  - {fileID: 8887701836947498054, guid: ce5c30f616a438640ab38ae47693cfbe, type: 3}
-  - {fileID: 5506545654264717230, guid: 4a47e3dd325f728469cbb297cf3de427, type: 3}
+  - {fileID: 2886148417607266861, guid: d2aa562826a65c046ab0a9e9ed672085, type: 3}
+  - {fileID: 6118049378211363674, guid: c7a654154f507fe40860943c10585600, type: 3}
   - {fileID: 3378541179949719529, guid: f1cd28bf92eac784e808af2d4a613ab3, type: 3}
-  - {fileID: 3523239355767878463, guid: 73589122d48645844af2ad4a86df2263, type: 3}
-  - {fileID: 4588751812486887795, guid: c584ce3e0ccb1594aa0c1a9712c095e0, type: 3}
+  - {fileID: 3484314520393385808, guid: 4c75bba422c4023418aca7f5b8df00ac, type: 3}
+  - {fileID: 5506545654264717230, guid: 4a47e3dd325f728469cbb297cf3de427, type: 3}
+  - {fileID: 6944591131078950210, guid: 97578618dbbe3c54b8f340c5dd47160d, type: 3}
+  playerModels:
+  - {fileID: 3682924965393673765, guid: 02087b3acee2f5641b1881a4fb6ac7f9, type: 3}
+  - {fileID: 119290512494248254, guid: 4fc954d99a19461418674ea643e23bb0, type: 3}
+  - {fileID: 1070540885629113653, guid: 08d6c22b048501e49a9c7fb58f1f808c, type: 3}
+  - {fileID: 7938985543829286267, guid: b7dc770db057fc44a8ed454ef895c342, type: 3}
+  - {fileID: 1295763595359290315, guid: 24c192f54b57f564c921b28c987e6ddc, type: 3}
+  - {fileID: 644203172701810139, guid: 0b3b3cd67c4444440bf6d1d9fb644a65, type: 3}
   spawnPoints:
   - {x: 50, y: 350, z: 0}
   - {x: -150, y: 300, z: 0}
@@ -115,6 +122,24 @@ MonoBehaviour:
   - {x: 200, y: -15, z: 0}
   - {x: 300, y: -15, z: 0}
   - {x: 400, y: -15, z: 0}
+  - {x: 400, y: -40, z: 0}
+  - {x: 350, y: -40, z: 0}
+  - {x: 350, y: -40, z: 0}
+  - {x: 300, y: -40, z: 0}
+  - {x: 250, y: -40, z: 0}
+  - {x: 200, y: -40, z: 0}
+  - {x: 150, y: -40, z: 0}
+  - {x: 100, y: -40, z: 0}
+  - {x: 50, y: -40, z: 0}
+  - {x: 0, y: -40, z: 0}
+  - {x: -50, y: -40, z: 0}
+  - {x: -100, y: -40, z: 0}
+  - {x: -150, y: -40, z: 0}
+  - {x: -200, y: -40, z: 0}
+  - {x: -250, y: -40, z: 0}
+  - {x: -300, y: -40, z: 0}
+  - {x: -350, y: -40, z: 0}
+  - {x: -400, y: -40, z: 0}
   items:
   - {fileID: 5623431855591627515, guid: 5fca4a3ec26e8744cb53f72e8159d85b, type: 3}
   - {fileID: 3530419670987736028, guid: cd4aca7afa6dbd641ba9dc89c851764e, type: 3}

@@ -1,5 +1,6 @@
 using DG.Tweening;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
@@ -27,11 +28,11 @@ public class NewPlayer : PlayerSystem
     }
     private void HandleMovement()
     {
-        if (transform.position.y >= 410)
+        if (transform.position.y >= 410f)
         {
             direction = JumpAndDiveDirection();
         }
-        if (transform.position.y <= 400)
+        if (transform.position.y <= 395f)
         {
             if (targeting)
             {
@@ -48,7 +49,7 @@ public class NewPlayer : PlayerSystem
             rb.velocity = speed * Time.deltaTime * direction;
 
         //just for preventing unintended rotation :)
-        if (horizontal != 0 || vertical != 0 || targeting || transform.position.y >= 410)
+        if (horizontal != 0 || vertical != 0 || targeting || transform.position.y >= 410f)
             ModelTransform(direction);
     }
     public void HandleStamina()

@@ -1107,7 +1107,6 @@ GameObject:
   - component: {fileID: 1241072343158388207}
   - component: {fileID: 5896305258316905795}
   - component: {fileID: 2394650771565682933}
-  - component: {fileID: 1099979578759271737}
   m_Layer: 0
   m_Name: Retobo_Black
   m_TagString: Untagged
@@ -5974,21 +5973,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1099979578759271737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8950889447570426988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56cd8b9e7dc313f41b5c68ed31889df0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillImg: {fileID: 21300000, guid: 836ed0f68c7c21740bc71642037ed91e, type: 3}
-  duration: 10
-  cooldown: 20
 --- !u!1 &8993154154821491819
 GameObject:
   m_ObjectHideFlags: 0

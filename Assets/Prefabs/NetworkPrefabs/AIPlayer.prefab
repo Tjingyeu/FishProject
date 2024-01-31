@@ -514,7 +514,7 @@ RectTransform:
   m_GameObject: {fileID: 7429618240154488525}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6908891655909768531}
@@ -769,11 +769,11 @@ MonoBehaviour:
   animator: {fileID: 0}
   groupNumber: 0
   lvl: {fileID: 0}
+  modelIndex: 0
   speed: 2000
   healthImage: {fileID: 4330464186237180241}
   patrolStart: {fileID: 7257757642477729620}
   patrolEnd: {fileID: 4283677142538814919}
   currentState: 0
   stateChanged: 0
-  modelIndex: 0
   posIndex: 0

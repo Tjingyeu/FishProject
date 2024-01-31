@@ -960,7 +960,6 @@ GameObject:
   - component: {fileID: 7021214645247872960}
   - component: {fileID: 4056741573263240601}
   - component: {fileID: 4617825781510536409}
-  - component: {fileID: 203434926766116021}
   m_Layer: 0
   m_Name: Retobo_Orange
   m_TagString: Untagged
@@ -5827,21 +5826,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &203434926766116021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6540402556106004619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69ecfe08605723d4c92737dadc9e5cef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillImg: {fileID: 21300000, guid: 255e608505ffd3d4da8d18b159d43301, type: 3}
-  duration: 5
-  cooldown: 10
 --- !u!1 &6999706771732789154
 GameObject:
   m_ObjectHideFlags: 0
