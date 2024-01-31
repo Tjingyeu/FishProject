@@ -32,9 +32,21 @@ public class BitingSystem : MonoBehaviour
         }
 
         //bite damage
-        IBitable bitedObject =
-            other.TryGetComponent(out IBitable iBitable) ? iBitable : other.GetComponentInParent<IBitable>();
-        bitedObject.BiteDmg();
+        IBitable bitedObject;
+        if (other.TryGetComponent(out IBitable iBitable))
+        {
+            bitedObject = iBitable;
+            bitedObject.BiteDmg();
+        }
+        else
+        {
+            bitedObject = other.GetComponentInParent<IBitable>();
+            if(headTrans.GetComponent<PlayerSystem>().groupNumber != other.GetComponentInParent<PlayerSystem>().groupNumber)
+            {
+                bitedObject.BiteDmg();
+            }
+        }
+
     }
 
     public void BitingEnd()

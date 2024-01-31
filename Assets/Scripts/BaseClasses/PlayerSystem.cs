@@ -43,6 +43,7 @@ public class PlayerSystem : MonoBehaviour, IBitable
     public void InitializeDetails(int _modelIndex, int group_Num)
     {
         groupNumber = group_Num;
+
         model = Instantiate(DataManager.instance.playerModels[_modelIndex],transform).transform;
         mouth = model.Find("mouthPlace").Find("mouth");
         animator = model.GetComponent<Animator>();
@@ -66,20 +67,22 @@ public class PlayerSystem : MonoBehaviour, IBitable
 
         for (int i = 0; i < target.Count; i++)
         {
-            if (!target[i].CompareTag("food"))
-                if (target[i].transform.parent.TryGetComponent(out PlayerSystem playerSystem))
-                {
-                    Debug.Log("it is friend");
-                    if(playerSystem.groupNumber == groupNumber)
-                        target.RemoveAt(i);
-
-                    continue;
-                }
-
             if ((transform.position - target[i].transform.position).sqrMagnitude <= temp)
             {
                 nearer = target[i].transform;
                 temp = (transform.position - target[i].transform.position).sqrMagnitude;
+
+                if (!nearer.CompareTag("food"))
+                    if (nearer.transform.parent.TryGetComponent(out PlayerSystem playerSystem))
+                    {
+                        if (playerSystem.groupNumber == groupNumber)
+                        {
+                            //for ignoring friends
+                            Debug.Log("it is friend");
+                            nearer = null;
+                            continue;
+                        }
+                    }
             }
         }
         return nearer;

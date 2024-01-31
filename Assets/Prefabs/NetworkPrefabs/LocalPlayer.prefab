@@ -906,7 +906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa303a0333cbb644ab044bb04eea62bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnInterval: 5
+  spawnInterval: 3
   currentItemPosition: {x: 0, y: 0, z: 0}
   currentItemIndex: 0
 --- !u!114 &2011302631256554224

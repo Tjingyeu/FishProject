@@ -23,7 +23,7 @@ public class EnemyAI : PlayerSystem
     // Start is called before the first frame update
     private void Start()
     {
-        speed = 1000f;
+        speed = 1500f;
 
         posIndex = Random.Range(0, DataManager.instance.spawnPoints.Count);
 
