@@ -142,6 +142,7 @@ public class GameManager : MonoBehaviour
             player.GetComponent<PlayerNetworkRemoteSync>().NetworkData = new RemotePlayerNetworkData
             {
                 MatchId = matchId,
+                
                 User = user
             };
         }
@@ -212,20 +213,20 @@ public class GameManager : MonoBehaviour
     {
         WakaConnection.Socket.SendMatchStateAsync(currentMatch.Id, opCode, state);
     }
-/*    public async Task SetDisplayName(string displayName)
+    public async Task SetDisplayName(string displayName)
     {
 
         await WakaConnection.Client.UpdateAccountAsync(WakaConnection.Session, null, displayName);
 
-    }*/
-    public void SetDisplayName(string displayName)
-    {
-        // We could set this on our Nakama Client using the below code:
-        // await NakamaConnection.Client.UpdateAccountAsync(NakamaConnection.Session, null, displayName);
-        // However, since we're using Device Id authentication, when running 2 or more clients locally they would both display the same name when testing/debugging.
-        // So in this instance we will just set a local variable instead.
-        localDisplayName = displayName;
     }
+    /*    public void SetDisplayName(string displayName)
+        {
+            // We could set this on our Nakama Client using the below code:
+            // await NakamaConnection.Client.UpdateAccountAsync(NakamaConnection.Session, null, displayName);
+            // However, since we're using Device Id authentication, when running 2 or more clients locally they would both display the same name when testing/debugging.
+            // So in this instance we will just set a local variable instead.
+            localDisplayName = displayName;
+        }*/
 
     public void StartTimer()
     {

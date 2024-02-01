@@ -12,6 +12,9 @@ public class FindMatch : MonoBehaviour
     public GameObject StartMenu;
     public GameObject DailyRewards;
     public GameObject loadingCircle;
+    public GameObject leaderboard;
+    public GameObject TopMenu;
+    
 
     public Button PartyFindMatchButton;
     public Button soloFindMatchButton;
@@ -19,7 +22,8 @@ public class FindMatch : MonoBehaviour
     public Button SoloCancelButton;
     public Button DailyReward_btn;
     public Button close_dailyRWD_btn;
-
+    public Button leaderBoard_btn;
+    public Button leaderBoard_Close;
     private GameManager gameManager;
     [SerializeField] private int playerNum = 2;
 
@@ -42,7 +46,8 @@ public class FindMatch : MonoBehaviour
         //for canceling the match
         PartyCancelButton.onClick.AddListener(CancelPartyMatchmaking);
         SoloCancelButton.onClick.AddListener(CancelSoloMatchmaking);
-
+        leaderBoard_Close.onClick.AddListener(Close_leaderboard);
+        leaderBoard_btn.onClick.AddListener(LeaderboardMenu);
         DisableFindMatchButton();
     }
 
@@ -70,6 +75,8 @@ public class FindMatch : MonoBehaviour
         PartyFindMatchBtn.SetActive(false);
         PartyFinding.SetActive(false);
         StartMenu.SetActive(false);
+        TopMenu.SetActive(false);
+
         
         //gameObject.SetActive(false);
         inputButton.SetActive(true);
@@ -85,6 +92,14 @@ public class FindMatch : MonoBehaviour
     public void DailyRewardMenuClose()
     {
         DailyRewards.SetActive(false);
+    }
+    public void LeaderboardMenu()
+    {
+        leaderboard.SetActive(true);
+    }
+    public void Close_leaderboard()
+    {
+        leaderboard.SetActive(false);
     }
     public async void Party_Find_Match()
     {

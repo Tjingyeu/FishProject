@@ -18,6 +18,8 @@ public class WakawakaConnection : MonoBehaviour
     public ISession Session;
     public ISocket Socket;
     public IApiAccount Account;
+    public IApiUser User;
+    public ISession SingletonSession { get; private set; }
 
     private string currentMatchmakingTicket;
     private string currentMatchId;
@@ -57,6 +59,9 @@ public class WakawakaConnection : MonoBehaviour
             Session = await Client.AuthenticateDeviceAsync(deviceId);
             PlayerPrefs.SetString(SessionPrefName, Session.AuthToken);
         }
+        SingletonSession = Session;
+        Account = await Client.GetAccountAsync(Session);
+        User = Account.User;
         Socket = Client.NewSocket(true);
         await Socket.ConnectAsync(Session, true);
 

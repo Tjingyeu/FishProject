@@ -13,6 +13,7 @@ TagManager:
   - attack
   - waterSurface
   - remotePlayer
+  - Server
   layers:
   - Default
   - TransparentFX
